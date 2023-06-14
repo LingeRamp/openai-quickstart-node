@@ -27,7 +27,7 @@ export default async function (req, res) {
 
   try {
     const completion = await openai.createCompletion({
-      model: "text-davinci-003",
+      model: "text-davinci-002",
       prompt: generatePrompt(animal),
       temperature: 0.6,
     });
